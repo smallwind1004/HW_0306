@@ -21,6 +21,13 @@ public class Student {
     void setGender(String setgender) {
         this.gender = setgender;
     }
+    void setAll(String sName,String sGrade,String sId,String sDepartment,String sGender){
+        this.name = sName;
+        this.grade = sGrade;
+        this.id = sId;
+        this.department = sDepartment;
+        this.gender = sGender;
+    }
 
     String getName() {
         return name;
@@ -36,5 +43,12 @@ public class Student {
     }
     String getGender() {
         return gender;
+    }
+    void showAll(){
+        System.out.println("Name\t:" + getName());
+        System.out.println("Grade\t:" + getGrade());
+        System.out.println("Id\t:" + getId());
+        System.out.println("Department\t:" + getDepartment());
+        System.out.println("Gender\t:" + getGender());
     }
 }

@@ -5,6 +5,8 @@ public class HW01_Main {
 
     public static void main(String[] args) {
         Book book1 = new Book();
+        Book book2 = new Book();
+        Book book3 = new Book();
         book1.setName("Java7");
         book1.setAuthor("洪維恩");
         book1.setPublisher("旗標");
